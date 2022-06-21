@@ -1,0 +1,216 @@
+
+body{
+	display: flex;
+	}
+main{
+	box-shadow: 30px 0px 40px rgb(196,196,196), -30px 0px 40px rgb(196,196,196);
+	margin:auto;
+	max-width: 1000px; 
+}
+.srkl{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	background-color: #fff;
+	width: 100%;
+}
+header{
+	height: 160px;
+	padding-top: 10px;
+	color: white;
+	background-color: #C0C0C0;
+}
+.photo{
+	margin-left: 7%;
+	/*border-radius: 50%;*/
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+}
+.des{
+	margin-left: 25%;
+	margin-top: -10%;
+}
+h3{
+	color: #13c3ba;
+	font-weight: bold;
+	letter-spacing: -1rem;
+	font-size: 20px;
+}
+
+.right{
+	margin: 5px;
+	padding:0;
+	margin-top: -10%;
+
+}
+.right p{
+	margin-left: 600px;
+	letter-spacing: -1rem;
+}
+.info{
+	width: 20px;
+	height: 20px;
+}
+.section-left{
+	background-color: #C0C0C0;
+	
+	float: left;
+	width: 250px;
+}
+.post1{
+	padding-left: 90px;
+}
+.section-right{
+	background-color: #fff;
+
+	float: left;
+	width: 40vw;
+}
+h4{
+	margin-left: 1%;
+	
+}
+
+hr.light{
+	border-top: 2px solid #13c3ba;
+	width: 60%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+.atouts{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-left: 10%;
+
+}
+.div .p{
+	margin-left: 1%;
+}
+.div{
+
+	margin-left: 5%;
+
+
+}
+.div .box{
+	display: flex;
+	flex-direction: row;
+}
+.skls{
+	padding:0 ;
+	width: 40%;
+	margin-left: 10%;
+}
+.cool{
+	background-color: #fff;
+	border:2px solid #ccc;
+	width: 200px;
+	height: 7px;
+}
+.cool p{
+	margin-left: 80%;
+}
+.po{
+	margin-top: 20px;
+}
+strong{
+	color: #13c3ba;
+	text-decoration: none;
+}
+/* barre en couleur*/
+.inner{
+	height: 90%;
+	background-color: orange;
+}
+.interet{
+	margin-left: 10%;
+
+}
+.span{
+	margin-left: 10%; 
+}
+.post1{
+	
+	color: #fff;
+	text-align: center;
+
+}
+.post{
+	
+	color: #fff;
+	text-align: center;
+
+}
+.photo img{
+	position: relative;
+	width: 200px;
+} 
+
+.infop img{
+	width: 20PX;
+}
+.centreInteret{
+	margin-left: 5%;
+}
+.centreInteret img{
+	width: 20px;
+}
+.comp{
+	margin-left: 5%;
+}
+
+
+.about{
+	margin-left: 1%;
+}
+.about  .box
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+  .box .year_company
+{
+    min-width: 100px
+}
+ .box .year_company h5
+{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.box .text h4
+{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ .title2 
+{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #916b6b;
+    border-width: 2px;
+   
+
+}
+
+.container{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+
+@media (max-width: 800px){
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+	.section-left, .section-right
+	{
+		width: 	100%
+	}
+}
+.photo{
+	text-align:center;
+}
